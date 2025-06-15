@@ -3,7 +3,7 @@ The analytics module: Gathers, evaluates and displays the analytical data.
 
 Module is called when the user chooses "Show Habits (All or Sort by Periodicity)" or "Analytics".
 """
-
+#this is python file
 from db import connect_database
 
 
@@ -150,6 +150,7 @@ def show_habit_streak_data(habit=None):
     else:
         print("\nNo Habit Found; Please Add a Habit First!\n")
 
+#this is a py file 
 
 # Displays habits log
 def show_habit_logged_data(name_of_habit):
