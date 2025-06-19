@@ -6,7 +6,7 @@ class TestDatabase:
     """
     TestDatabase class contains method that tests the important functions of db module
     """
-
+#python setup
     def setup_method(self):
         self.db = connect_database("test_db.db")
         # Total 6 habits and 4 categories (3 career = only 1 category, 1 atmosphere, 1 growth and 1 games)
