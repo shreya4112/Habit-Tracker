@@ -1,5 +1,4 @@
 import matplotlib as plt
-import numpy as np
 import pytest
 from habit import Habit
 from db import add_habit, connect_database, fetch_habits_as_choices, habit_exists, remove_habit, \
