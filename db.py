@@ -1,6 +1,7 @@
 """
 The database module: Primarily creates database tables, stores information and returns data.
 """
+#import matplotlib as plt
 # data base file which will further be tested 
 import sqlite3
 
