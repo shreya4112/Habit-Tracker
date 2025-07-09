@@ -2,8 +2,7 @@
 The analytics module: Gathers, evaluates and displays the analytical data.
 
 Module is called when the user chooses "Show Habits (All or Sort by Periodicity)" or "Analytics".
-"""
-#this is python file
+""" 
 from db import connect_database
 
 
